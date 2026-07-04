@@ -1,10 +1,18 @@
 # SOC Incident Investigation Report
 
+**Alert ID:** 233
+
 **Incident Type:** Phishing Attempt with Malicious URL
+
+**Severity:** Critical
+
+**Status:** Closed
 
 **Classification:** True Positive
 
-**Severity:** Critical
+**ATT&CK:** T1566
+
+**Analyst:** Mario Sameh
 
 ---
 

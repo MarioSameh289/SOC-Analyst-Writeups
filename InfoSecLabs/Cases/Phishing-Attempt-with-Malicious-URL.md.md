@@ -20,6 +20,9 @@ The investigation focused on three critical artifacts extracted from the raw log
 
 ### Key Artifacts Evaluated
 
+<img width="952" height="602" alt="image" src="https://github.com/user-attachments/assets/7a831440-ef41-439d-aa7f-5e08eecc9a64" />
+
+
 * **Source IP (`src_ip`):** `198.51.100.22`
 
 * **Email Sender (`email_sender`):** `noreply@secure-bank.com`

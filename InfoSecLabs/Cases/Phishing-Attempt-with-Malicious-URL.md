@@ -27,7 +27,7 @@ The investigation focused on three critical artifacts extracted from the raw log
 
 * **Email Sender (`email_sender`):** `noreply@secure-bank.com`
 
-* **Destination URL (`url`):** `[http://secure-bank.com/login](http://secure-bank.com/login)`
+* **Destination URL (`url`):** `http://secure-bank.com/login`
 
 
 ### Artifact Evaluation

@@ -8,17 +8,17 @@
 
 ---
 
-## ## Executive Summary
+## Executive Summary
 
 A security alert was triggered involving a suspected phishing email containing a malicious URL. Investigation and cross-referencing of key artifacts via Open Source Intelligence (OSINT) confirmed that the infrastructure used in this attack is tied to known malicious operations. The incident has been classified as a **True Positive**, and immediate mitigation controls have been enforced to protect organizational assets and user credentials.
 
 ---
 
-## ## Artifact Analysis & Technical Walkthrough
+## Artifact Analysis & Technical Walkthrough
 
 The investigation focused on three critical artifacts extracted from the raw log data:
 
-### ### Key Artifacts Evaluated
+### Key Artifacts Evaluated
 
 * **Source IP (`src_ip`):** `198.51.100.22`
 
@@ -27,7 +27,7 @@ The investigation focused on three critical artifacts extracted from the raw log
 * **Destination URL (`url`):** `[http://secure-bank.com/login](http://secure-bank.com/login)`
 
 
-### ### Artifact Evaluation
+### Artifact Evaluation
 
 * **Source IP (198.51.100.22):** OSINT reputation checks revealed this IP address has been reported **500 times** for hosting active phishing campaigns. This high volume of historical abuse provides strong, undeniable evidence of malicious intent.
 
@@ -41,7 +41,7 @@ The investigation focused on three critical artifacts extracted from the raw log
 
 ---
 
-## ## Verdict Reasoning
+## Verdict Reasoning
 
 The alert is classified as a **True Positive** based on the following structured chain of evidence:
 
@@ -61,7 +61,7 @@ The alert is classified as a **True Positive** based on the following structured
 
 ---
 
-## ## Response & Containment Actions
+## Response & Containment Actions
 
 To minimize organizational risk and contain the threat, the following defensive actions were executed:
 
@@ -77,7 +77,7 @@ To minimize organizational risk and contain the threat, the following defensive 
 
 ---
 
-## ## Analyst Pro Tips for Future Triage
+## Analyst Pro Tips for Future Triage
 
 1. **Multi-Source IP Verification:** Never rely on a single threat intelligence feed. Use multiple OSINT tools to verify IP reputation thoroughly before dismissing or validating an alert.
 
